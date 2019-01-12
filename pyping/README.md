@@ -6,7 +6,7 @@
 pip3でインストールしたpypingが動作しない．
 
 ## 調査&原因
-どうやらpip3でインストールできるもののpython3用に作られたpypingでは無いらしい．
+どうやらpip3でインストールできるが，それがpython3用に作られたpypingであるわけでは無いらしい．
 他にもいろいろ出てくる．
 
 - `https://stackoverflow.com/questions/35330964/unable-to-import-pyping-for-python3`
