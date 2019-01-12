@@ -5,6 +5,11 @@
 ## 現象
 pip3でインストールしたpypingが動作しない．
 
+## 環境
+- MacBook Pro macOS Mojave
+- pip18.1
+- python3.6.5
+
 ## 調査&原因
 どうやらpip3でインストールできるが，それがpython3用に作られたpypingであるわけでは無いらしい．
 他にもいろいろ出てくる．
@@ -13,7 +18,7 @@ pip3でインストールしたpypingが動作しない．
 
 
 ## 対処
-原因はいくつかあるが，致命的なものはなくほぼ全てsyntaxの問題なのでpython2 to python3への変換でうまくいく．
+原因はいくつかあるが，致命的なものはなくほぼ全てsyntaxの問題なのでpython2 to python3の変換でうまくいく．
 探せばpython3に対応したものが転がっていそうだけど今回はコードを修正する形で対処した．
 
 ### \_\_init\_\_.pyのfrom core import \* をfrom .core import \* に変える
