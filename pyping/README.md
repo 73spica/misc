@@ -33,6 +33,7 @@ ModuleNotFoundError: No module named 'core'
 ```
 python3では同一ディレクトリのモジュールを指す時にピリオドが必要．
 
+以下からは `core.py` を変更する．
 ### インデントをよしなに変える
 ```
 $ python3 ping.py
