@@ -161,3 +161,14 @@ MAX:8.362ms
 MIN:7.455ms
 AVG:7.940ms
 ```
+
+pingコマンドと比較してみるとおおよそ同じなので問題なさそう．
+```
+$ ping ftp.tsukuba.wide.ad.jp                                                                           
+PING ftp.tsukuba.wide.ad.jp (203.178.132.80): 56 data bytes
+64 bytes from 203.178.132.80: icmp_seq=0 ttl=56 time=6.998 ms
+64 bytes from 203.178.132.80: icmp_seq=1 ttl=56 time=6.159 ms
+64 bytes from 203.178.132.80: icmp_seq=2 ttl=56 time=6.350 ms
+64 bytes from 203.178.132.80: icmp_seq=3 ttl=56 time=7.664 ms
+64 bytes from 203.178.132.80: icmp_seq=4 ttl=56 time=8.443 ms
+```
